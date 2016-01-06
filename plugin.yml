@@ -1,0 +1,20 @@
+name: QuickHide
+version: 1.0.0
+description: Allows you to vanish in game and hide from dynmap
+depend: []
+author: Fahlur
+main: me.fahlur.QuickHide.main
+
+commands:
+    hide:
+        usage: /<command>
+        description: Vanish and Dynmap Hide combined
+    unhide:
+        usage: /<command>
+        description: unVanish and Dynmap unHide combined
+
+      
+Permissions:
+    quickhide.hide:
+       description: full hide command for dynmap and vanish.
+       default: op
